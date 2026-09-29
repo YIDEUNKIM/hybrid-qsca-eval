@@ -1,0 +1,12 @@
+{
+ "tag": "hw_fez_S512",
+ "backend": "ibm_fez",
+ "shots": 512,
+ "n_attack": 100,
+ "depth": 21,
+ "two_qubit": 10,
+ "recov_05": null,
+ "ge_min": 12.0,
+ "minutes": 1.15,
+ "total_shots": 409600
+}

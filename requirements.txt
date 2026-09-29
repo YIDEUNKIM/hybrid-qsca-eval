@@ -1,0 +1,13 @@
+# Versions with which the sr/ replays were verified bit-for-bit against results/.
+# The original campaign trained with PennyLane 0.42 and PyTorch 2.5.
+numpy==2.5.3
+h5py==3.14.0
+torch==2.14.0
+pennylane==0.45.1
+qiskit==2.5.2
+qiskit-aer==0.17.2
+qiskit-ibm-runtime==0.49.0
+qiskit-ionq==1.1.1
+requests==2.34.2
+# Only for sr/hw_sr_from_export.py: the job exports store QPY with symengine expressions.
+symengine<0.14

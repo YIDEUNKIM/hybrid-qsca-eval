@@ -1,0 +1,12 @@
+{
+ "tag": "HWCAL",
+ "backend": "ibm_fez",
+ "shots": 512,
+ "n_attack": 10,
+ "depth": 21,
+ "two_qubit": 10,
+ "recov_05": null,
+ "ge_min": 126.0,
+ "minutes": 0.65,
+ "total_shots": 40960
+}

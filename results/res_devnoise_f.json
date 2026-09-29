@@ -1,0 +1,19 @@
+{
+ "backend": "fake_sherbrooke",
+ "dataset": "fixed",
+ "seed": 0,
+ "results": {
+  "512": {
+   "recov_05": 450,
+   "ge_min": 0.0,
+   "n_attack": 1500,
+   "mins": 33.0
+  },
+  "2048": {
+   "recov_05": 370,
+   "ge_min": 0.0,
+   "n_attack": 1500,
+   "mins": 33.9
+  }
+ }
+}

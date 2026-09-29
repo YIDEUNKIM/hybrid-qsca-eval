@@ -1,0 +1,387 @@
+{
+ "fez_S512_n10": {
+  "job_id": "daorpvg2fm4c73f5tf80",
+  "backend": "ibm_fez",
+  "created": "2026-09-21T23:25:50.761626Z",
+  "shots": 512,
+  "n_attack": 10,
+  "runtime_options": {
+   "dynamical_decoupling": {
+    "enable": false,
+    "sequence_type": "XX",
+    "extra_slack_distribution": "middle",
+    "scheduling_method": "alap"
+   },
+   "twirling": {
+    "enable_gates": false,
+    "enable_measure": true,
+    "num_randomizations": "auto",
+    "shots_per_randomization": "auto",
+    "interleave_randomizations": true,
+    "strategy": "active-accum"
+   },
+   "resilience": {
+    "measure_mitigation": true,
+    "zne_mitigation": false,
+    "pec_mitigation": false
+   },
+   "version": 2
+  },
+  "pub_metadata": {
+   "shots": 512,
+   "target_precision": 0.044194173824159216,
+   "circuit_metadata": {},
+   "resilience": {},
+   "num_randomizations": 8
+  },
+  "checks": {
+   "logical_obs": [
+    "Z0",
+    "Z2",
+    "Z4",
+    "Z6",
+    "X0",
+    "X2",
+    "X4",
+    "X6"
+   ],
+   "max_abs_dangle_vs_front": 4.76837158203125e-07,
+   "physical_qubits": [
+    105,
+    106,
+    117,
+    125,
+    144,
+    145,
+    146,
+    147
+   ],
+   "max_abs_dev_transpiled_vs_pennylane": 2.5962049121641684e-07,
+   "archived_recov_05": null,
+   "archived_ge_min": 126.0
+  },
+  "noise": {
+   "rms_dev": 0.055266662900627955,
+   "rms_shot_expected": 0.0401756674468917,
+   "mean_reported_std": 0.036552558142376755,
+   "slope_hw_on_exact": 0.9615693006244779,
+   "rms_dev_per_obs": {
+    "Z0": 0.0347,
+    "Z2": 0.0296,
+    "Z4": 0.0969,
+    "Z6": 0.0486,
+    "X0": 0.0669,
+    "X2": 0.0469,
+    "X4": 0.0491,
+    "X6": 0.039
+   }
+  },
+  "hw": {
+   "T_ge05": null,
+   "SR_at_T_ge05": null,
+   "T_sr50": null,
+   "T_sr90": null,
+   "T_sr100": null,
+   "T_ge0": null,
+   "SR_end": 0.0,
+   "GE_end": 131.0,
+   "GE_min": 126.0,
+   "GE_100": null,
+   "SR_100": null,
+   "H": 10
+  },
+  "exact_same_pool": {
+   "T_ge05": null,
+   "SR_at_T_ge05": null,
+   "T_sr50": null,
+   "T_sr90": null,
+   "T_sr100": null,
+   "T_ge0": null,
+   "SR_end": 0.0,
+   "GE_end": 70.0,
+   "GE_min": 70.0,
+   "GE_100": null,
+   "SR_100": null,
+   "H": 10
+  },
+  "devnoise_same_pool": [
+   {
+    "file": "curves_devnoise_S512_n1500_seed1.npz",
+    "T_ge05": null,
+    "GE_end": 28.0,
+    "SR_end": 0.0
+   },
+   {
+    "file": "curves_devnoise_S512_n1500_seed2.npz",
+    "T_ge05": null,
+    "GE_end": 232.0,
+    "SR_end": 0.0
+   },
+   {
+    "file": "curves_devnoise_S512_n1500_seed3.npz",
+    "T_ge05": null,
+    "GE_end": 102.0,
+    "SR_end": 0.0
+   },
+   {
+    "file": "curves_devnoise_S512_n1500_seed4.npz",
+    "T_ge05": null,
+    "GE_end": 124.0,
+    "SR_end": 0.0
+   },
+   {
+    "file": "curves_devnoise_S512_n1500_seed5.npz",
+    "T_ge05": null,
+    "GE_end": 186.0,
+    "SR_end": 0.0
+   }
+  ]
+ },
+ "fez_S512_n100": {
+  "job_id": "daorqsgpqrnc739af3k0",
+  "backend": "ibm_fez",
+  "created": "2026-09-21T23:27:46.944367Z",
+  "shots": 512,
+  "n_attack": 100,
+  "runtime_options": {
+   "dynamical_decoupling": {
+    "enable": false,
+    "sequence_type": "XX",
+    "extra_slack_distribution": "middle",
+    "scheduling_method": "alap"
+   },
+   "twirling": {
+    "enable_gates": false,
+    "enable_measure": true,
+    "num_randomizations": "auto",
+    "shots_per_randomization": "auto",
+    "interleave_randomizations": true,
+    "strategy": "active-accum"
+   },
+   "resilience": {
+    "measure_mitigation": true,
+    "zne_mitigation": false,
+    "pec_mitigation": false
+   },
+   "version": 2
+  },
+  "pub_metadata": {
+   "shots": 512,
+   "target_precision": 0.044194173824159216,
+   "circuit_metadata": {},
+   "resilience": {},
+   "num_randomizations": 8
+  },
+  "checks": {
+   "logical_obs": [
+    "Z0",
+    "Z2",
+    "Z4",
+    "Z6",
+    "X0",
+    "X2",
+    "X4",
+    "X6"
+   ],
+   "max_abs_dangle_vs_front": 7.748603820800781e-07,
+   "physical_qubits": [
+    105,
+    106,
+    117,
+    125,
+    144,
+    145,
+    146,
+    147
+   ],
+   "max_abs_dev_transpiled_vs_pennylane": 2.7478376496414825e-07,
+   "max_abs_dGE_vs_archived": 0.0,
+   "archived_recov_05": null,
+   "archived_ge_min": 12.0
+  },
+  "noise": {
+   "rms_dev": 0.052585604106598086,
+   "rms_shot_expected": 0.04012013437414425,
+   "mean_reported_std": 0.03736920559331048,
+   "slope_hw_on_exact": 0.9713308496438698,
+   "rms_dev_per_obs": {
+    "Z0": 0.0354,
+    "Z2": 0.0393,
+    "Z4": 0.0812,
+    "Z6": 0.0378,
+    "X0": 0.0529,
+    "X2": 0.058,
+    "X4": 0.0504,
+    "X6": 0.0509
+   }
+  },
+  "hw": {
+   "T_ge05": null,
+   "SR_at_T_ge05": null,
+   "T_sr50": null,
+   "T_sr90": null,
+   "T_sr100": null,
+   "T_ge0": null,
+   "SR_end": 0.0,
+   "GE_end": 12.0,
+   "GE_min": 12.0,
+   "GE_100": 12.0,
+   "SR_100": 0.0,
+   "H": 100
+  },
+  "exact_same_pool": {
+   "T_ge05": 97,
+   "SR_at_T_ge05": 0.68,
+   "T_sr50": 93,
+   "T_sr90": 99,
+   "T_sr100": 100,
+   "T_ge0": 100,
+   "SR_end": 1.0,
+   "GE_end": 0.0,
+   "GE_min": 0.0,
+   "GE_100": 0.0,
+   "SR_100": 1.0,
+   "H": 100
+  },
+  "devnoise_same_pool": [
+   {
+    "file": "curves_devnoise_S512_n1500_seed1.npz",
+    "T_ge05": null,
+    "GE_end": 3.0,
+    "SR_end": 0.0
+   },
+   {
+    "file": "curves_devnoise_S512_n1500_seed2.npz",
+    "T_ge05": null,
+    "GE_end": 15.0,
+    "SR_end": 0.0
+   },
+   {
+    "file": "curves_devnoise_S512_n1500_seed3.npz",
+    "T_ge05": null,
+    "GE_end": 2.0,
+    "SR_end": 0.0
+   },
+   {
+    "file": "curves_devnoise_S512_n1500_seed4.npz",
+    "T_ge05": null,
+    "GE_end": 2.0,
+    "SR_end": 0.0
+   },
+   {
+    "file": "curves_devnoise_S512_n1500_seed5.npz",
+    "T_ge05": null,
+    "GE_end": 1.0,
+    "SR_end": 0.0
+   }
+  ]
+ },
+ "fez_S256_n650": {
+  "job_id": "daos29opqrnc739afcmg",
+  "backend": "ibm_fez",
+  "created": "2026-09-21T23:43:36.03854Z",
+  "shots": 256,
+  "n_attack": 650,
+  "runtime_options": {
+   "dynamical_decoupling": {
+    "enable": false,
+    "sequence_type": "XX",
+    "extra_slack_distribution": "middle",
+    "scheduling_method": "alap"
+   },
+   "twirling": {
+    "enable_gates": false,
+    "enable_measure": true,
+    "num_randomizations": "auto",
+    "shots_per_randomization": "auto",
+    "interleave_randomizations": true,
+    "strategy": "active-accum"
+   },
+   "resilience": {
+    "measure_mitigation": true,
+    "zne_mitigation": false,
+    "pec_mitigation": false
+   },
+   "version": 2
+  },
+  "pub_metadata": {
+   "shots": 256,
+   "target_precision": 0.0625,
+   "circuit_metadata": {},
+   "resilience": {},
+   "num_randomizations": 4
+  },
+  "checks": {
+   "logical_obs": [
+    "Z0",
+    "Z2",
+    "Z4",
+    "Z6",
+    "X0",
+    "X2",
+    "X4",
+    "X6"
+   ],
+   "max_abs_dangle_vs_front": 9.5367431640625e-07,
+   "physical_qubits": [
+    105,
+    106,
+    117,
+    125,
+    144,
+    145,
+    146,
+    147
+   ],
+   "max_abs_dev_transpiled_vs_pennylane": 3.417657310489375e-07,
+   "max_abs_dGE_vs_archived": 0.0,
+   "archived_recov_05": 217,
+   "archived_ge_min": 0.0
+  },
+  "noise": {
+   "rms_dev": 0.06561054503000535,
+   "rms_shot_expected": 0.056844173294375876,
+   "mean_reported_std": 0.04583992244792795,
+   "slope_hw_on_exact": 0.9773502214695118,
+   "rms_dev_per_obs": {
+    "Z0": 0.0504,
+    "Z2": 0.0506,
+    "Z4": 0.0913,
+    "Z6": 0.0536,
+    "X0": 0.0668,
+    "X2": 0.0732,
+    "X4": 0.0603,
+    "X6": 0.0684
+   }
+  },
+  "hw": {
+   "T_ge05": 217,
+   "SR_at_T_ge05": 0.78,
+   "T_sr50": 145,
+   "T_sr90": 290,
+   "T_sr100": 383,
+   "T_ge0": 383,
+   "SR_end": 1.0,
+   "GE_end": 0.0,
+   "GE_min": 0.0,
+   "GE_100": 4.19,
+   "SR_100": 0.33,
+   "H": 650
+  },
+  "exact_same_pool": {
+   "T_ge05": 163,
+   "SR_at_T_ge05": 0.82,
+   "T_sr50": 96,
+   "T_sr90": 190,
+   "T_sr100": 326,
+   "T_ge0": 326,
+   "SR_end": 1.0,
+   "GE_end": 0.0,
+   "GE_min": 0.0,
+   "GE_100": 1.91,
+   "SR_100": 0.54,
+   "H": 650
+  },
+  "devnoise_same_pool": []
+ }
+}

@@ -1,0 +1,1302 @@
+{
+ "forte-enterprise-1_S512_n1500_seed1": {
+  "T_ge05": 606,
+  "SR_at_T_ge05": 0.8,
+  "T_sr50": 348,
+  "T_sr90": 753,
+  "T_sr100": 1140,
+  "T_ge0": 1140,
+  "SR_end": 1.0,
+  "GE_end": 0.0,
+  "GE_min": 0.0,
+  "GE_100": 14.73,
+  "SR_100": 0.17,
+  "H": 1500,
+  "S": 512,
+  "n": 1500,
+  "rep": 1,
+  "noise_model": "forte-enterprise-1",
+  "backend": "simulator",
+  "minutes": 8.07,
+  "chunks": [
+   {
+    "chunk": 0,
+    "traces": [
+     0,
+     250
+    ],
+    "noise_seed": 453910149,
+    "job_id": "01a0c82a-0f97-726a-abf6-529ac26cbd2c",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 453910149
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 37000,
+    "submitted_at": "2026-09-22T08:09:54.843Z",
+    "completed_at": "2026-09-22T08:16:14.633Z"
+   },
+   {
+    "chunk": 1,
+    "traces": [
+     250,
+     500
+    ],
+    "noise_seed": 1038218757,
+    "job_id": "01a0c82a-2001-71cd-9f78-90933a91c914",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1038218757
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 7000,
+    "submitted_at": "2026-09-22T08:09:59.044Z",
+    "completed_at": "2026-09-22T08:16:43.843Z"
+   },
+   {
+    "chunk": 2,
+    "traces": [
+     500,
+     750
+    ],
+    "noise_seed": 1215445568,
+    "job_id": "01a0c82a-3490-7140-8f6a-51939b090e7a",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1215445568
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 30000,
+    "submitted_at": "2026-09-22T08:10:04.307Z",
+    "completed_at": "2026-09-22T08:16:54.679Z"
+   },
+   {
+    "chunk": 3,
+    "traces": [
+     750,
+     1000
+    ],
+    "noise_seed": 1736519031,
+    "job_id": "01a0c82a-4535-706e-978e-b0049036dc5b",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1736519031
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 39000,
+    "submitted_at": "2026-09-22T08:10:08.569Z",
+    "completed_at": "2026-09-22T08:17:06.060Z"
+   },
+   {
+    "chunk": 4,
+    "traces": [
+     1000,
+     1250
+    ],
+    "noise_seed": 150756906,
+    "job_id": "01a0c82a-5808-724e-998b-979f540aaace",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 150756906
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 17000,
+    "submitted_at": "2026-09-22T08:10:13.386Z",
+    "completed_at": "2026-09-22T08:17:27.146Z"
+   },
+   {
+    "chunk": 5,
+    "traces": [
+     1250,
+     1500
+    ],
+    "noise_seed": 1481375804,
+    "job_id": "01a0c82a-6f51-74fc-9b50-39f8a5fb89b3",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1481375804
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 5000,
+    "submitted_at": "2026-09-22T08:10:19.348Z",
+    "completed_at": "2026-09-22T08:17:15.951Z"
+   }
+  ]
+ },
+ "forte-enterprise-1_S512_n1500_seed2": {
+  "T_ge05": 555,
+  "SR_at_T_ge05": 0.83,
+  "T_sr50": 307,
+  "T_sr90": 731,
+  "T_sr100": 1122,
+  "T_ge0": 1122,
+  "SR_end": 1.0,
+  "GE_end": 0.0,
+  "GE_min": 0.0,
+  "GE_100": 10.32,
+  "SR_100": 0.16,
+  "H": 1500,
+  "S": 512,
+  "n": 1500,
+  "rep": 2,
+  "noise_model": "forte-enterprise-1",
+  "backend": "simulator",
+  "minutes": 2.7,
+  "chunks": [
+   {
+    "chunk": 0,
+    "traces": [
+     0,
+     250
+    ],
+    "noise_seed": 906097970,
+    "job_id": "01a0c831-809f-7381-a5b8-53350ea07fec",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 906097970
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 368000,
+    "submitted_at": "2026-09-22T08:18:02.530Z",
+    "completed_at": "2026-09-22T08:19:00.280Z"
+   },
+   {
+    "chunk": 1,
+    "traces": [
+     250,
+     500
+    ],
+    "noise_seed": 247966293,
+    "job_id": "01a0c831-aed6-7160-90c5-5bc326d643fa",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 247966293
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 14000,
+    "submitted_at": "2026-09-22T08:18:14.360Z",
+    "completed_at": "2026-09-22T08:19:39.041Z"
+   },
+   {
+    "chunk": 2,
+    "traces": [
+     500,
+     750
+    ],
+    "noise_seed": 1541488942,
+    "job_id": "01a0c831-cc06-769c-b64a-0a85f56ecf33",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1541488942
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 98000,
+    "submitted_at": "2026-09-22T08:18:21.858Z",
+    "completed_at": "2026-09-22T08:19:33.189Z"
+   },
+   {
+    "chunk": 3,
+    "traces": [
+     750,
+     1000
+    ],
+    "noise_seed": 1496501194,
+    "job_id": "01a0c832-2563-7599-bf4a-80418d2a705f",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1496501194
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 213000,
+    "submitted_at": "2026-09-22T08:18:44.710Z",
+    "completed_at": "2026-09-22T08:20:19.107Z"
+   },
+   {
+    "chunk": 4,
+    "traces": [
+     1000,
+     1250
+    ],
+    "noise_seed": 1155000148,
+    "job_id": "01a0c832-78b5-75c0-acc2-88d7fa0fd54a",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1155000148
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 0,
+    "submitted_at": "2026-09-22T08:19:06.040Z",
+    "completed_at": "2026-09-22T08:19:59.007Z"
+   },
+   {
+    "chunk": 5,
+    "traces": [
+     1250,
+     1500
+    ],
+    "noise_seed": 592997352,
+    "job_id": "01a0c832-a8fc-732b-ac6e-7fb3a85ad44e",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 592997352
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 225000,
+    "submitted_at": "2026-09-22T08:19:18.423Z",
+    "completed_at": "2026-09-22T08:20:13.920Z"
+   }
+  ]
+ },
+ "forte-enterprise-1_S512_n1500_seed3": {
+  "T_ge05": 526,
+  "SR_at_T_ge05": 0.79,
+  "T_sr50": 281,
+  "T_sr90": 645,
+  "T_sr100": 901,
+  "T_ge0": 901,
+  "SR_end": 1.0,
+  "GE_end": 0.0,
+  "GE_min": 0.0,
+  "GE_100": 11.48,
+  "SR_100": 0.14,
+  "H": 1500,
+  "S": 512,
+  "n": 1500,
+  "rep": 3,
+  "noise_model": "forte-enterprise-1",
+  "backend": "simulator",
+  "minutes": 2.03,
+  "chunks": [
+   {
+    "chunk": 0,
+    "traces": [
+     0,
+     250
+    ],
+    "noise_seed": 686205091,
+    "job_id": "01a0c833-f045-72f8-94cb-4ccce90d66d6",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 686205091
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 46000,
+    "submitted_at": "2026-09-22T08:20:42.185Z",
+    "completed_at": "2026-09-22T08:21:36.719Z"
+   },
+   {
+    "chunk": 1,
+    "traces": [
+     250,
+     500
+    ],
+    "noise_seed": 544501989,
+    "job_id": "01a0c834-1b39-7659-9038-9991bd9385df",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 544501989
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 0,
+    "submitted_at": "2026-09-22T08:20:53.181Z",
+    "completed_at": "2026-09-22T08:21:46.541Z"
+   },
+   {
+    "chunk": 2,
+    "traces": [
+     500,
+     750
+    ],
+    "noise_seed": 762353593,
+    "job_id": "01a0c834-3107-7264-a787-8d4428aab1bf",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 762353593
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 0,
+    "submitted_at": "2026-09-22T08:20:58.762Z",
+    "completed_at": "2026-09-22T08:21:51.391Z"
+   },
+   {
+    "chunk": 3,
+    "traces": [
+     750,
+     1000
+    ],
+    "noise_seed": 1531430407,
+    "job_id": "01a0c834-4793-734f-acca-9e6d24b8f0a2",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1531430407
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 0,
+    "submitted_at": "2026-09-22T08:21:04.534Z",
+    "completed_at": "2026-09-22T08:22:14.289Z"
+   },
+   {
+    "chunk": 4,
+    "traces": [
+     1000,
+     1250
+    ],
+    "noise_seed": 834557863,
+    "job_id": "01a0c834-61af-705e-8fe1-8e7fdb6e80ce",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 834557863
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 0,
+    "submitted_at": "2026-09-22T08:21:11.218Z",
+    "completed_at": "2026-09-22T08:22:05.539Z"
+   },
+   {
+    "chunk": 5,
+    "traces": [
+     1250,
+     1500
+    ],
+    "noise_seed": 1011929566,
+    "job_id": "01a0c834-87e6-7382-9d38-a65b84636a14",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1011929566
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 4000,
+    "submitted_at": "2026-09-22T08:21:21.003Z",
+    "completed_at": "2026-09-22T08:22:14.281Z"
+   }
+  ]
+ },
+ "forte-enterprise-1_S512_n1500_seed4": {
+  "T_ge05": 567,
+  "SR_at_T_ge05": 0.8,
+  "T_sr50": 354,
+  "T_sr90": 710,
+  "T_sr100": 853,
+  "T_ge0": 853,
+  "SR_end": 1.0,
+  "GE_end": 0.0,
+  "GE_min": 0.0,
+  "GE_100": 14.12,
+  "SR_100": 0.13,
+  "H": 1500,
+  "S": 512,
+  "n": 1500,
+  "rep": 4,
+  "noise_model": "forte-enterprise-1",
+  "backend": "simulator",
+  "minutes": 2.44,
+  "chunks": [
+   {
+    "chunk": 0,
+    "traces": [
+     0,
+     250
+    ],
+    "noise_seed": 209715453,
+    "job_id": "01a0c835-d506-700a-b93a-d57bd6b89418",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 209715453
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 0,
+    "submitted_at": "2026-09-22T08:22:46.283Z",
+    "completed_at": "2026-09-22T08:23:52.119Z"
+   },
+   {
+    "chunk": 1,
+    "traces": [
+     250,
+     500
+    ],
+    "noise_seed": 162443643,
+    "job_id": "01a0c836-082e-71da-867f-8408ef694b48",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 162443643
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 0,
+    "submitted_at": "2026-09-22T08:22:59.378Z",
+    "completed_at": "2026-09-22T08:24:06.414Z"
+   },
+   {
+    "chunk": 2,
+    "traces": [
+     500,
+     750
+    ],
+    "noise_seed": 1205665777,
+    "job_id": "01a0c836-517e-773b-b55c-a855c7721a28",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1205665777
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 13000,
+    "submitted_at": "2026-09-22T08:23:18.146Z",
+    "completed_at": "2026-09-22T08:24:20.366Z"
+   },
+   {
+    "chunk": 3,
+    "traces": [
+     750,
+     1000
+    ],
+    "noise_seed": 1151871572,
+    "job_id": "01a0c836-870e-70e8-8343-5af2990f4bd0",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1151871572
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 12000,
+    "submitted_at": "2026-09-22T08:23:31.857Z",
+    "completed_at": "2026-09-22T08:24:43.058Z"
+   },
+   {
+    "chunk": 4,
+    "traces": [
+     1000,
+     1250
+    ],
+    "noise_seed": 512823041,
+    "job_id": "01a0c836-a509-7567-8ef1-b9f6fa7442b8",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 512823041
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 3000,
+    "submitted_at": "2026-09-22T08:23:39.532Z",
+    "completed_at": "2026-09-22T08:24:44.918Z"
+   },
+   {
+    "chunk": 5,
+    "traces": [
+     1250,
+     1500
+    ],
+    "noise_seed": 575504763,
+    "job_id": "01a0c836-bc2a-71ec-943b-6f059f926231",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 575504763
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 0,
+    "submitted_at": "2026-09-22T08:23:45.455Z",
+    "completed_at": "2026-09-22T08:24:48.873Z"
+   }
+  ]
+ },
+ "forte-enterprise-1_S512_n1500_seed5": {
+  "T_ge05": 607,
+  "SR_at_T_ge05": 0.86,
+  "T_sr50": 350,
+  "T_sr90": 665,
+  "T_sr100": 1038,
+  "T_ge0": 1038,
+  "SR_end": 1.0,
+  "GE_end": 0.0,
+  "GE_min": 0.0,
+  "GE_100": 14.77,
+  "SR_100": 0.13,
+  "H": 1500,
+  "S": 512,
+  "n": 1500,
+  "rep": 5,
+  "noise_model": "forte-enterprise-1",
+  "backend": "simulator",
+  "minutes": 2.75,
+  "chunks": [
+   {
+    "chunk": 0,
+    "traces": [
+     0,
+     250
+    ],
+    "noise_seed": 933915151,
+    "job_id": "01a0c838-0960-7218-8a74-35108a9e05dc",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 933915151
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 1000,
+    "submitted_at": "2026-09-22T08:25:10.755Z",
+    "completed_at": "2026-09-22T08:26:26.227Z"
+   },
+   {
+    "chunk": 1,
+    "traces": [
+     250,
+     500
+    ],
+    "noise_seed": 1803133031,
+    "job_id": "01a0c838-1c17-7498-b046-bb5fc77eeb54",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1803133031
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 6000,
+    "submitted_at": "2026-09-22T08:25:15.547Z",
+    "completed_at": "2026-09-22T08:26:58.065Z"
+   },
+   {
+    "chunk": 2,
+    "traces": [
+     500,
+     750
+    ],
+    "noise_seed": 1284864703,
+    "job_id": "01a0c838-34c5-7419-9312-477ef80d3142",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1284864703
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 11000,
+    "submitted_at": "2026-09-22T08:25:21.864Z",
+    "completed_at": "2026-09-22T08:26:56.663Z"
+   },
+   {
+    "chunk": 3,
+    "traces": [
+     750,
+     1000
+    ],
+    "noise_seed": 409060483,
+    "job_id": "01a0c838-4f85-73eb-bcab-f6456d831889",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 409060483
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 15000,
+    "submitted_at": "2026-09-22T08:25:28.713Z",
+    "completed_at": "2026-09-22T08:27:03.400Z"
+   },
+   {
+    "chunk": 4,
+    "traces": [
+     1000,
+     1250
+    ],
+    "noise_seed": 888105147,
+    "job_id": "01a0c838-61c6-721d-a12f-f56753341d6b",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 888105147
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 1000,
+    "submitted_at": "2026-09-22T08:25:33.385Z",
+    "completed_at": "2026-09-22T08:27:18.132Z"
+   },
+   {
+    "chunk": 5,
+    "traces": [
+     1250,
+     1500
+    ],
+    "noise_seed": 1868903352,
+    "job_id": "01a0c838-7832-71d4-bb8b-e7e62a33daa5",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1868903352
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 17000,
+    "submitted_at": "2026-09-22T08:25:39.125Z",
+    "completed_at": "2026-09-22T08:27:23.553Z"
+   }
+  ]
+ },
+ "forte-enterprise-1_S2048_n1500_seed1": {
+  "T_ge05": 434,
+  "SR_at_T_ge05": 0.84,
+  "T_sr50": 233,
+  "T_sr90": 543,
+  "T_sr100": 842,
+  "T_ge0": 842,
+  "SR_end": 1.0,
+  "GE_end": 0.0,
+  "GE_min": 0.0,
+  "GE_100": 8.9,
+  "SR_100": 0.2,
+  "H": 1500,
+  "S": 2048,
+  "n": 1500,
+  "rep": 1,
+  "noise_model": "forte-enterprise-1",
+  "backend": "simulator",
+  "minutes": 7.72,
+  "chunks": [
+   {
+    "chunk": 0,
+    "traces": [
+     0,
+     250
+    ],
+    "noise_seed": 863503515,
+    "job_id": "01a0c83a-8139-76fd-9f44-8f0fe1f26c78",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 863503515
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 484000,
+    "submitted_at": "2026-09-22T08:27:52.508Z",
+    "completed_at": "2026-09-22T08:28:55.585Z"
+   },
+   {
+    "chunk": 1,
+    "traces": [
+     250,
+     500
+    ],
+    "noise_seed": 1855081727,
+    "job_id": "01a0c83a-a410-72b8-9bf2-511863ea4915",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1855081727
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 478000,
+    "submitted_at": "2026-09-22T08:28:01.427Z",
+    "completed_at": "2026-09-22T08:29:23.615Z"
+   },
+   {
+    "chunk": 2,
+    "traces": [
+     500,
+     750
+    ],
+    "noise_seed": 1155542564,
+    "job_id": "01a0c83a-bb84-7666-b877-82d752462bc9",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1155542564
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 490000,
+    "submitted_at": "2026-09-22T08:28:07.432Z",
+    "completed_at": "2026-09-22T08:29:54.446Z"
+   },
+   {
+    "chunk": 3,
+    "traces": [
+     750,
+     1000
+    ],
+    "noise_seed": 816534398,
+    "job_id": "01a0c83a-cf09-7245-94da-695e77fad30c",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 816534398
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 478000,
+    "submitted_at": "2026-09-22T08:28:12.428Z",
+    "completed_at": "2026-09-22T08:29:52.656Z"
+   },
+   {
+    "chunk": 4,
+    "traces": [
+     1000,
+     1250
+    ],
+    "noise_seed": 374758877,
+    "job_id": "01a0c8c2-d076-71f5-b3cf-50afc339a93e",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 374758877
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 502000,
+    "submitted_at": "2026-09-22T10:56:45.688Z",
+    "completed_at": "2026-09-22T11:04:07.274Z"
+   },
+   {
+    "chunk": 5,
+    "traces": [
+     1250,
+     1500
+    ],
+    "noise_seed": 1630491257,
+    "job_id": "01a0c83a-f3d9-7599-a4fd-4d85b75eed41",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1630491257
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 484000,
+    "submitted_at": "2026-09-22T08:28:21.852Z",
+    "completed_at": "2026-09-22T08:29:51.887Z"
+   }
+  ]
+ },
+ "forte-enterprise-1_S2048_n1500_seed2": {
+  "T_ge05": 382,
+  "SR_at_T_ge05": 0.79,
+  "T_sr50": 240,
+  "T_sr90": 507,
+  "T_sr100": 772,
+  "T_ge0": 772,
+  "SR_end": 1.0,
+  "GE_end": 0.0,
+  "GE_min": 0.0,
+  "GE_100": 7.81,
+  "SR_100": 0.22,
+  "H": 1500,
+  "S": 2048,
+  "n": 1500,
+  "rep": 2,
+  "noise_model": "forte-enterprise-1",
+  "backend": "simulator",
+  "minutes": 3.2,
+  "chunks": [
+   {
+    "chunk": 0,
+    "traces": [
+     0,
+     250
+    ],
+    "noise_seed": 762221151,
+    "job_id": "01a0c8c9-d2c4-71d3-8c8f-eb8d8af95334",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 762221151
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 501000,
+    "submitted_at": "2026-09-22T11:04:25.031Z",
+    "completed_at": "2026-09-22T11:06:02.024Z"
+   },
+   {
+    "chunk": 1,
+    "traces": [
+     250,
+     500
+    ],
+    "noise_seed": 1619456633,
+    "job_id": "01a0c8c9-e29f-72e8-b8cc-4657bbbc070a",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1619456633
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:04:29.092Z",
+    "completed_at": "2026-09-22T11:06:14.584Z"
+   },
+   {
+    "chunk": 2,
+    "traces": [
+     500,
+     750
+    ],
+    "noise_seed": 364891716,
+    "job_id": "01a0c8c9-f086-7211-b992-34cceb37040e",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 364891716
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 499000,
+    "submitted_at": "2026-09-22T11:04:32.648Z",
+    "completed_at": "2026-09-22T11:06:23.523Z"
+   },
+   {
+    "chunk": 3,
+    "traces": [
+     750,
+     1000
+    ],
+    "noise_seed": 1483254901,
+    "job_id": "01a0c8c9-ff12-7658-8b63-b62a3d249f6a",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1483254901
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:04:36.376Z",
+    "completed_at": "2026-09-22T11:06:25.442Z"
+   },
+   {
+    "chunk": 4,
+    "traces": [
+     1000,
+     1250
+    ],
+    "noise_seed": 2047620640,
+    "job_id": "01a0c8ca-0ef8-731e-93fc-d577124c74a3",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 2047620640
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:04:40.443Z",
+    "completed_at": "2026-09-22T11:06:55.622Z"
+   },
+   {
+    "chunk": 5,
+    "traces": [
+     1250,
+     1500
+    ],
+    "noise_seed": 654169262,
+    "job_id": "01a0c8ca-1ce3-724d-a01b-b6b238949203",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 654169262
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:04:44.009Z",
+    "completed_at": "2026-09-22T11:06:58.735Z"
+   }
+  ]
+ },
+ "forte-enterprise-1_S2048_n1500_seed3": {
+  "T_ge05": 366,
+  "SR_at_T_ge05": 0.79,
+  "T_sr50": 220,
+  "T_sr90": 444,
+  "T_sr100": 744,
+  "T_ge0": 744,
+  "SR_end": 1.0,
+  "GE_end": 0.0,
+  "GE_min": 0.0,
+  "GE_100": 8.26,
+  "SR_100": 0.19,
+  "H": 1500,
+  "S": 2048,
+  "n": 1500,
+  "rep": 3,
+  "noise_model": "forte-enterprise-1",
+  "backend": "simulator",
+  "minutes": 5.61,
+  "chunks": [
+   {
+    "chunk": 0,
+    "traces": [
+     0,
+     250
+    ],
+    "noise_seed": 1490235388,
+    "job_id": "01a0c8cc-c2fb-75dc-be8f-583b9d7a17a0",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1490235388
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 503000,
+    "submitted_at": "2026-09-22T11:07:37.598Z",
+    "completed_at": "2026-09-22T11:10:54.767Z"
+   },
+   {
+    "chunk": 1,
+    "traces": [
+     250,
+     500
+    ],
+    "noise_seed": 1379755750,
+    "job_id": "01a0c8cc-d333-701e-b077-7e41e4563947",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1379755750
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:07:41.750Z",
+    "completed_at": "2026-09-22T11:12:13.584Z"
+   },
+   {
+    "chunk": 2,
+    "traces": [
+     500,
+     750
+    ],
+    "noise_seed": 523830282,
+    "job_id": "01a0c8cc-e39d-72ba-b840-ace9f0213bd4",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 523830282
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 498000,
+    "submitted_at": "2026-09-22T11:07:45.953Z",
+    "completed_at": "2026-09-22T11:12:21.803Z"
+   },
+   {
+    "chunk": 3,
+    "traces": [
+     750,
+     1000
+    ],
+    "noise_seed": 12854570,
+    "job_id": "01a0c8cc-f268-72f8-b3e3-008b93934417",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 12854570
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:07:49.738Z",
+    "completed_at": "2026-09-22T11:12:46.625Z"
+   },
+   {
+    "chunk": 4,
+    "traces": [
+     1000,
+     1250
+    ],
+    "noise_seed": 1140594096,
+    "job_id": "01a0c8cd-0380-749a-bec1-d194cac2621b",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1140594096
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:07:54.118Z",
+    "completed_at": "2026-09-22T11:12:47.412Z"
+   },
+   {
+    "chunk": 5,
+    "traces": [
+     1250,
+     1500
+    ],
+    "noise_seed": 300433461,
+    "job_id": "01a0c8cd-1245-70ac-b7fd-f79535d0cb37",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 300433461
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:07:57.897Z",
+    "completed_at": "2026-09-22T11:12:46.380Z"
+   }
+  ]
+ },
+ "forte-enterprise-1_S2048_n1500_seed4": {
+  "T_ge05": 460,
+  "SR_at_T_ge05": 0.82,
+  "T_sr50": 256,
+  "T_sr90": 580,
+  "T_sr100": 928,
+  "T_ge0": 928,
+  "SR_end": 1.0,
+  "GE_end": 0.0,
+  "GE_min": 0.0,
+  "GE_100": 10.81,
+  "SR_100": 0.19,
+  "H": 1500,
+  "S": 2048,
+  "n": 1500,
+  "rep": 4,
+  "noise_model": "forte-enterprise-1",
+  "backend": "simulator",
+  "minutes": 4.76,
+  "chunks": [
+   {
+    "chunk": 0,
+    "traces": [
+     0,
+     250
+    ],
+    "noise_seed": 979038164,
+    "job_id": "01a0c8d1-e32e-77c8-8dde-7e16cccdffa4",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 979038164
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:13:13.521Z",
+    "completed_at": "2026-09-22T11:14:51.375Z"
+   },
+   {
+    "chunk": 1,
+    "traces": [
+     250,
+     500
+    ],
+    "noise_seed": 2002308052,
+    "job_id": "01a0c8d1-f205-7326-8c36-1008d9d81fc8",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 2002308052
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:13:17.321Z",
+    "completed_at": "2026-09-22T11:16:50.201Z"
+   },
+   {
+    "chunk": 2,
+    "traces": [
+     500,
+     750
+    ],
+    "noise_seed": 1540358730,
+    "job_id": "01a0c8d2-0173-730a-9327-f082e36fe13b",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1540358730
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 498000,
+    "submitted_at": "2026-09-22T11:13:21.271Z",
+    "completed_at": "2026-09-22T11:16:59.163Z"
+   },
+   {
+    "chunk": 3,
+    "traces": [
+     750,
+     1000
+    ],
+    "noise_seed": 93558616,
+    "job_id": "01a0c8d2-1340-724c-a81c-05af126bfcc1",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 93558616
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:13:25.827Z",
+    "completed_at": "2026-09-22T11:17:02.904Z"
+   },
+   {
+    "chunk": 4,
+    "traces": [
+     1000,
+     1250
+    ],
+    "noise_seed": 636013867,
+    "job_id": "01a0c8d2-20d0-772a-bf13-10d63bf04037",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 636013867
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:13:29.300Z",
+    "completed_at": "2026-09-22T11:16:55.878Z"
+   },
+   {
+    "chunk": 5,
+    "traces": [
+     1250,
+     1500
+    ],
+    "noise_seed": 2015717872,
+    "job_id": "01a0c8d2-2f02-77c9-a3c7-5f886a413858",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 2015717872
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:13:32.934Z",
+    "completed_at": "2026-09-22T11:17:26.516Z"
+   }
+  ]
+ },
+ "forte-enterprise-1_S2048_n1500_seed5": {
+  "T_ge05": 386,
+  "SR_at_T_ge05": 0.79,
+  "T_sr50": 240,
+  "T_sr90": 483,
+  "T_sr100": 847,
+  "T_ge0": 847,
+  "SR_end": 1.0,
+  "GE_end": 0.0,
+  "GE_min": 0.0,
+  "GE_100": 9.01,
+  "SR_100": 0.23,
+  "H": 1500,
+  "S": 2048,
+  "n": 1500,
+  "rep": 5,
+  "noise_model": "forte-enterprise-1",
+  "backend": "simulator",
+  "minutes": 2.37,
+  "chunks": [
+   {
+    "chunk": 0,
+    "traces": [
+     0,
+     250
+    ],
+    "noise_seed": 1132167227,
+    "job_id": "01a0c8d6-420f-73fd-a935-3dc9858a120a",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1132167227
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:17:59.956Z",
+    "completed_at": "2026-09-22T11:18:58.927Z"
+   },
+   {
+    "chunk": 1,
+    "traces": [
+     250,
+     500
+    ],
+    "noise_seed": 258473975,
+    "job_id": "01a0c8d6-535a-76df-a970-5864f3998182",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 258473975
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:18:04.382Z",
+    "completed_at": "2026-09-22T11:19:05.224Z"
+   },
+   {
+    "chunk": 2,
+    "traces": [
+     500,
+     750
+    ],
+    "noise_seed": 1696479148,
+    "job_id": "01a0c8d6-65cc-7318-9a42-ac10e89ade6d",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1696479148
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:18:09.103Z",
+    "completed_at": "2026-09-22T11:19:10.091Z"
+   },
+   {
+    "chunk": 3,
+    "traces": [
+     750,
+     1000
+    ],
+    "noise_seed": 1303340726,
+    "job_id": "01a0c8d6-753b-77e1-b6fb-f94bfaedd5c9",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1303340726
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:18:13.057Z",
+    "completed_at": "2026-09-22T11:19:39.895Z"
+   },
+   {
+    "chunk": 4,
+    "traces": [
+     1000,
+     1250
+    ],
+    "noise_seed": 1196373415,
+    "job_id": "01a0c8d6-89f8-729e-b14c-24469fdc2326",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1196373415
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:18:18.365Z",
+    "completed_at": "2026-09-22T11:19:40.082Z"
+   },
+   {
+    "chunk": 5,
+    "traces": [
+     1250,
+     1500
+    ],
+    "noise_seed": 1070340947,
+    "job_id": "01a0c8d6-9a6a-719f-a1da-78818e2cec2e",
+    "child_jobs": 500,
+    "noise_reported": {
+     "model": "forte-enterprise-1",
+     "seed": 1070340947
+    },
+    "settings_reported": {},
+    "execution_duration_ms": 500000,
+    "submitted_at": "2026-09-22T11:18:22.576Z",
+    "completed_at": "2026-09-22T11:19:22.351Z"
+   }
+  ]
+ }
+}
