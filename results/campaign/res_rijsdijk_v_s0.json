@@ -1,0 +1,17 @@
+{
+ "tag": "rijsdijk_v_s0",
+ "model": "rijsdijk",
+ "dataset": "variable",
+ "seed": 0,
+ "epochs": 50,
+ "batch": 400,
+ "params": 70492,
+ "final_loss": 5.424580097198486,
+ "final_acc": 0.007000000216066837,
+ "ge_min": 29.16,
+ "ge_argmin": 872,
+ "ge_final": 31.68,
+ "recov_05": null,
+ "recov_1": null,
+ "wallclock_s": 1416.8
+}

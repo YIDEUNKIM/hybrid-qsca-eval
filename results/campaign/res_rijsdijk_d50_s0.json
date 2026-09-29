@@ -1,0 +1,17 @@
+{
+ "tag": "rijsdijk_d50_s0",
+ "model": "rijsdijk",
+ "dataset": "desync50",
+ "seed": 0,
+ "epochs": 50,
+ "batch": 50,
+ "params": 79439,
+ "final_loss": 5.542863368988037,
+ "final_acc": 0.0047111110761761665,
+ "ge_min": 121.36,
+ "ge_argmin": 2,
+ "ge_final": 196.48,
+ "recov_05": null,
+ "recov_1": null,
+ "wallclock_s": 580.2
+}

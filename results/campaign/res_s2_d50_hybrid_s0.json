@@ -1,0 +1,19 @@
+{
+ "tag": "s2_d50_hybrid_s0",
+ "stage": "2hybrid",
+ "dataset": "desync50",
+ "mode": "hybrid",
+ "seed": 0,
+ "epochs": 200,
+ "epochs_run": 50,
+ "params": 34214,
+ "var_kept": 0.9998503514267892,
+ "best_epoch": 10,
+ "val_ge_auc": 97.375,
+ "ge_min": 108.22,
+ "ge_argmin": 394,
+ "ge_final": 119.04,
+ "recov_05": null,
+ "recov_1": null,
+ "wallclock_s": 1043.5
+}

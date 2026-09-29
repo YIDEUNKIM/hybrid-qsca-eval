@@ -1,0 +1,95 @@
+[data] s3_d100_quantum_qcnn_s2 len=700 train=45000 val=5000 attack=10000 key=0xe0 early_stop=True
+[model] s3_d100_quantum_qcnn_s2 params=42750 (mid-block=22)
+[ep 1/250] loss=5.5546 acc=0.0038
+[ep 2/250] loss=5.5453 acc=0.0044
+[ep 3/250] loss=5.5434 acc=0.0050
+[ep 4/250] loss=5.5415 acc=0.0052
+[ep 5/250] loss=5.5386 acc=0.0052 val_ge_auc=115.18 *best*
+[ep 6/250] loss=5.5357 acc=0.0054
+[ep 7/250] loss=5.5324 acc=0.0053
+[ep 8/250] loss=5.5293 acc=0.0060
+[ep 9/250] loss=5.5257 acc=0.0060
+[ep 10/250] loss=5.5220 acc=0.0066 val_ge_auc=105.37 *best*
+[ep 11/250] loss=5.5181 acc=0.0064
+[ep 12/250] loss=5.5144 acc=0.0072
+[ep 13/250] loss=5.5100 acc=0.0070
+[ep 14/250] loss=5.5064 acc=0.0071
+[ep 15/250] loss=5.5029 acc=0.0078 val_ge_auc=104.46 *best*
+[ep 16/250] loss=5.4988 acc=0.0077
+[ep 17/250] loss=5.4950 acc=0.0083
+[ep 18/250] loss=5.4922 acc=0.0080
+[ep 19/250] loss=5.4892 acc=0.0080
+[ep 20/250] loss=5.4853 acc=0.0082 val_ge_auc=107.55 (stale 1/8)
+[ep 21/250] loss=5.4822 acc=0.0084
+[ep 22/250] loss=5.4780 acc=0.0087
+[ep 23/250] loss=5.4751 acc=0.0094
+[ep 24/250] loss=5.4718 acc=0.0086
+[ep 25/250] loss=5.4683 acc=0.0088 val_ge_auc=125.44 (stale 2/8)
+[ep 26/250] loss=5.4654 acc=0.0091
+[ep 27/250] loss=5.4616 acc=0.0098
+[ep 28/250] loss=5.4579 acc=0.0091
+[ep 29/250] loss=5.4544 acc=0.0098
+[ep 30/250] loss=5.4513 acc=0.0095 val_ge_auc=92.40 *best*
+[ep 31/250] loss=5.4479 acc=0.0093
+[ep 32/250] loss=5.4436 acc=0.0095
+[ep 33/250] loss=5.4422 acc=0.0092
+[ep 34/250] loss=5.4379 acc=0.0098
+[ep 35/250] loss=5.4331 acc=0.0106 val_ge_auc=89.38 *best*
+[ep 36/250] loss=5.4307 acc=0.0109
+[ep 37/250] loss=5.4270 acc=0.0103
+[ep 38/250] loss=5.4250 acc=0.0108
+[ep 39/250] loss=5.4207 acc=0.0105
+[ep 40/250] loss=5.4183 acc=0.0102 val_ge_auc=107.57 (stale 1/8)
+[ep 41/250] loss=5.4140 acc=0.0108
+[ep 42/250] loss=5.4123 acc=0.0110
+[ep 43/250] loss=5.4087 acc=0.0112
+[ep 44/250] loss=5.4058 acc=0.0117
+[ep 45/250] loss=5.4036 acc=0.0110 val_ge_auc=101.44 (stale 2/8)
+[ep 46/250] loss=5.3994 acc=0.0115
+[ep 47/250] loss=5.3960 acc=0.0120
+[ep 48/250] loss=5.3940 acc=0.0117
+[ep 49/250] loss=5.3899 acc=0.0123
+[ep 50/250] loss=5.3865 acc=0.0124 val_ge_auc=83.96 *best*
+[ep 51/250] loss=5.3864 acc=0.0124
+[ep 52/250] loss=5.3816 acc=0.0125
+[ep 53/250] loss=5.3794 acc=0.0131
+[ep 54/250] loss=5.3762 acc=0.0131
+[ep 55/250] loss=5.3733 acc=0.0127 val_ge_auc=100.20 (stale 1/8)
+[ep 56/250] loss=5.3694 acc=0.0133
+[ep 57/250] loss=5.3675 acc=0.0140
+[ep 58/250] loss=5.3664 acc=0.0133
+[ep 59/250] loss=5.3624 acc=0.0136
+[ep 60/250] loss=5.3604 acc=0.0136 val_ge_auc=97.73 (stale 2/8)
+[ep 61/250] loss=5.3576 acc=0.0135
+[ep 62/250] loss=5.3561 acc=0.0137
+[ep 63/250] loss=5.3534 acc=0.0141
+[ep 64/250] loss=5.3493 acc=0.0143
+[ep 65/250] loss=5.3460 acc=0.0143 val_ge_auc=92.36 (stale 3/8)
+[ep 66/250] loss=5.3460 acc=0.0142
+[ep 67/250] loss=5.3430 acc=0.0142
+[ep 68/250] loss=5.3406 acc=0.0152
+[ep 69/250] loss=5.3381 acc=0.0144
+[ep 70/250] loss=5.3347 acc=0.0149 val_ge_auc=95.68 (stale 4/8)
+[ep 71/250] loss=5.3318 acc=0.0150
+[ep 72/250] loss=5.3303 acc=0.0156
+[ep 73/250] loss=5.3308 acc=0.0155
+[ep 74/250] loss=5.3251 acc=0.0156
+[ep 75/250] loss=5.3265 acc=0.0160 val_ge_auc=104.03 (stale 5/8)
+[ep 76/250] loss=5.3222 acc=0.0155
+[ep 77/250] loss=5.3219 acc=0.0165
+[ep 78/250] loss=5.3197 acc=0.0156
+[ep 79/250] loss=5.3185 acc=0.0158
+[ep 80/250] loss=5.3152 acc=0.0162 val_ge_auc=103.56 (stale 6/8)
+[ep 81/250] loss=5.3134 acc=0.0164
+[ep 82/250] loss=5.3119 acc=0.0164
+[ep 83/250] loss=5.3105 acc=0.0167
+[ep 84/250] loss=5.3099 acc=0.0159
+[ep 85/250] loss=5.3072 acc=0.0165 val_ge_auc=104.21 (stale 7/8)
+[ep 86/250] loss=5.3031 acc=0.0166
+[ep 87/250] loss=5.3043 acc=0.0160
+[ep 88/250] loss=5.3020 acc=0.0164
+[ep 89/250] loss=5.3009 acc=0.0168
+[ep 90/250] loss=5.2986 acc=0.0167 val_ge_auc=110.74 (stale 8/8)
+[patience] no improvement for 8 evals, stopping at ep 90
+[early-stop] best val_ge_auc=83.96 at epoch 50
+[GE] s3_d100_quantum_qcnn_s2 min=103.640@2999 final=103.990 recov[GE<0.5]=None (GE<1=None) time=44.9min

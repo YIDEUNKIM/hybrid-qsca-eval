@@ -1,0 +1,17 @@
+{
+ "tag": "rijsdijk_f_s0",
+ "model": "rijsdijk",
+ "dataset": "fixed",
+ "seed": 0,
+ "epochs": 50,
+ "batch": 50,
+ "params": 79439,
+ "final_loss": 5.169936656951904,
+ "final_acc": 0.015977777540683746,
+ "ge_min": 0.0,
+ "ge_argmin": 388,
+ "ge_final": 0.0,
+ "recov_05": 191,
+ "recov_1": 133,
+ "wallclock_s": 615.5
+}

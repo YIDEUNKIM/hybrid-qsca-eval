@@ -1,0 +1,19 @@
+{
+ "tag": "s1_v_pure_s0",
+ "stage": "1pure",
+ "dataset": "variable",
+ "mode": "pure",
+ "seed": 0,
+ "epochs": 200,
+ "epochs_run": 200,
+ "params": 144,
+ "var_kept": 0.8314027902141482,
+ "best_epoch": 185,
+ "val_ge_auc": 125.810390625,
+ "ge_min": 114.61,
+ "ge_argmin": 180,
+ "ge_final": 129.57,
+ "recov_05": null,
+ "recov_1": null,
+ "wallclock_s": 10447.1
+}

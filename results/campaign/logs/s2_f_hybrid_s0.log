@@ -1,0 +1,70 @@
+[data] s2_f_hybrid_s0 mode=hybrid pca=256 var_kept=0.983 train=45000 val=5000 attack=10000 key=0xe0
+[model] stage=2hybrid qubits=8 params=34214
+[ep 1/200] loss=5.5608 acc=0.0039
+[ep 2/200] loss=5.5376 acc=0.0052
+[ep 3/200] loss=5.5284 acc=0.0051
+[ep 4/200] loss=5.5206 acc=0.0064
+[ep 5/200] loss=5.5139 acc=0.0064 val_ge_auc=156.93 *best*
+[ep 6/200] loss=5.5070 acc=0.0071
+[ep 7/200] loss=5.5010 acc=0.0077
+[ep 8/200] loss=5.4947 acc=0.0088
+[ep 9/200] loss=5.4897 acc=0.0086
+[ep 10/200] loss=5.4845 acc=0.0085 val_ge_auc=145.80 *best*
+[ep 11/200] loss=5.4796 acc=0.0096
+[ep 12/200] loss=5.4745 acc=0.0096
+[ep 13/200] loss=5.4702 acc=0.0091
+[ep 14/200] loss=5.4658 acc=0.0098
+[ep 15/200] loss=5.4620 acc=0.0108 val_ge_auc=143.62 *best*
+[ep 16/200] loss=5.4583 acc=0.0103
+[ep 17/200] loss=5.4544 acc=0.0109
+[ep 18/200] loss=5.4507 acc=0.0101
+[ep 19/200] loss=5.4467 acc=0.0111
+[ep 20/200] loss=5.4443 acc=0.0113 val_ge_auc=145.71 (stale 1/8)
+[ep 21/200] loss=5.4404 acc=0.0117
+[ep 22/200] loss=5.4371 acc=0.0116
+[ep 23/200] loss=5.4333 acc=0.0116
+[ep 24/200] loss=5.4302 acc=0.0121
+[ep 25/200] loss=5.4276 acc=0.0127 val_ge_auc=140.98 *best*
+[ep 26/200] loss=5.4246 acc=0.0125
+[ep 27/200] loss=5.4204 acc=0.0129
+[ep 28/200] loss=5.4179 acc=0.0136
+[ep 29/200] loss=5.4168 acc=0.0138
+[ep 30/200] loss=5.4122 acc=0.0143 val_ge_auc=141.01 (stale 1/8)
+[ep 31/200] loss=5.4088 acc=0.0148
+[ep 32/200] loss=5.4066 acc=0.0140
+[ep 33/200] loss=5.4036 acc=0.0146
+[ep 34/200] loss=5.4013 acc=0.0142
+[ep 35/200] loss=5.3988 acc=0.0146 val_ge_auc=145.88 (stale 2/8)
+[ep 36/200] loss=5.3952 acc=0.0148
+[ep 37/200] loss=5.3934 acc=0.0145
+[ep 38/200] loss=5.3899 acc=0.0147
+[ep 39/200] loss=5.3884 acc=0.0150
+[ep 40/200] loss=5.3861 acc=0.0152 val_ge_auc=142.18 (stale 3/8)
+[ep 41/200] loss=5.3827 acc=0.0163
+[ep 42/200] loss=5.3809 acc=0.0158
+[ep 43/200] loss=5.3784 acc=0.0167
+[ep 44/200] loss=5.3749 acc=0.0162
+[ep 45/200] loss=5.3733 acc=0.0166 val_ge_auc=147.28 (stale 4/8)
+[ep 46/200] loss=5.3700 acc=0.0167
+[ep 47/200] loss=5.3685 acc=0.0169
+[ep 48/200] loss=5.3653 acc=0.0172
+[ep 49/200] loss=5.3644 acc=0.0170
+[ep 50/200] loss=5.3606 acc=0.0171 val_ge_auc=147.17 (stale 5/8)
+[ep 51/200] loss=5.3598 acc=0.0175
+[ep 52/200] loss=5.3583 acc=0.0168
+[ep 53/200] loss=5.3549 acc=0.0178
+[ep 54/200] loss=5.3536 acc=0.0170
+[ep 55/200] loss=5.3521 acc=0.0177 val_ge_auc=152.13 (stale 6/8)
+[ep 56/200] loss=5.3490 acc=0.0185
+[ep 57/200] loss=5.3479 acc=0.0181
+[ep 58/200] loss=5.3465 acc=0.0178
+[ep 59/200] loss=5.3429 acc=0.0189
+[ep 60/200] loss=5.3404 acc=0.0185 val_ge_auc=147.28 (stale 7/8)
+[ep 61/200] loss=5.3401 acc=0.0187
+[ep 62/200] loss=5.3381 acc=0.0188
+[ep 63/200] loss=5.3363 acc=0.0182
+[ep 64/200] loss=5.3351 acc=0.0186
+[ep 65/200] loss=5.3323 acc=0.0194 val_ge_auc=148.47 (stale 8/8)
+[patience] no improvement for 8 evals, stopping at ep 65
+[early-stop] best val_ge_auc=140.98 at epoch 25
+[GE] s2_f_hybrid_s0 min=82.440@2717 final=84.460 recov[GE<0.5]=None (GE<1=None) time=22.0min

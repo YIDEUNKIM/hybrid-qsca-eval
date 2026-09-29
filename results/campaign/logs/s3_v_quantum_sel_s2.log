@@ -1,0 +1,50 @@
+[data] s3_v_quantum_sel_s2 len=1400 train=45000 val=5000 attack=100000 key=0x22 early_stop=True
+[model] s3_v_quantum_sel_s2 params=49544 (mid-block=144)
+[ep 1/250] loss=5.5499 acc=0.0036
+[ep 2/250] loss=5.5455 acc=0.0039
+[ep 3/250] loss=5.5449 acc=0.0039
+[ep 4/250] loss=5.5444 acc=0.0036
+[ep 5/250] loss=5.5442 acc=0.0041 val_ge_auc=128.06 *best*
+[ep 6/250] loss=5.5440 acc=0.0042
+[ep 7/250] loss=5.5438 acc=0.0040
+[ep 8/250] loss=5.5438 acc=0.0039
+[ep 9/250] loss=5.5438 acc=0.0041
+[ep 10/250] loss=5.5438 acc=0.0039 val_ge_auc=128.19 (stale 1/8)
+[ep 11/250] loss=5.5438 acc=0.0044
+[ep 12/250] loss=5.5438 acc=0.0046
+[ep 13/250] loss=5.5438 acc=0.0040
+[ep 14/250] loss=5.5438 acc=0.0040
+[ep 15/250] loss=5.5438 acc=0.0042 val_ge_auc=128.46 (stale 2/8)
+[ep 16/250] loss=5.5438 acc=0.0042
+[ep 17/250] loss=5.5438 acc=0.0043
+[ep 18/250] loss=5.5438 acc=0.0043
+[ep 19/250] loss=5.5438 acc=0.0043
+[ep 20/250] loss=5.5438 acc=0.0040 val_ge_auc=128.22 (stale 3/8)
+[ep 21/250] loss=5.5438 acc=0.0042
+[ep 22/250] loss=5.5438 acc=0.0041
+[ep 23/250] loss=5.5438 acc=0.0037
+[ep 24/250] loss=5.5438 acc=0.0045
+[ep 25/250] loss=5.5438 acc=0.0043 val_ge_auc=128.24 (stale 4/8)
+[ep 26/250] loss=5.5438 acc=0.0039
+[ep 27/250] loss=5.5438 acc=0.0042
+[ep 28/250] loss=5.5438 acc=0.0042
+[ep 29/250] loss=5.5437 acc=0.0039
+[ep 30/250] loss=5.5438 acc=0.0042 val_ge_auc=128.16 (stale 5/8)
+[ep 31/250] loss=5.5438 acc=0.0042
+[ep 32/250] loss=5.5438 acc=0.0040
+[ep 33/250] loss=5.5438 acc=0.0043
+[ep 34/250] loss=5.5438 acc=0.0044
+[ep 35/250] loss=5.5438 acc=0.0039 val_ge_auc=128.28 (stale 6/8)
+[ep 36/250] loss=5.5437 acc=0.0043
+[ep 37/250] loss=5.5438 acc=0.0039
+[ep 38/250] loss=5.5438 acc=0.0044
+[ep 39/250] loss=5.5438 acc=0.0045
+[ep 40/250] loss=5.5438 acc=0.0042 val_ge_auc=128.32 (stale 7/8)
+[ep 41/250] loss=5.5438 acc=0.0039
+[ep 42/250] loss=5.5438 acc=0.0046
+[ep 43/250] loss=5.5438 acc=0.0039
+[ep 44/250] loss=5.5437 acc=0.0044
+[ep 45/250] loss=5.5438 acc=0.0044 val_ge_auc=128.34 (stale 8/8)
+[patience] no improvement for 8 evals, stopping at ep 45
+[early-stop] best val_ge_auc=128.06 at epoch 5
+[GE] s3_v_quantum_sel_s2 min=118.770@3000 final=118.770 recov[GE<0.5]=None (GE<1=None) time=59.4min

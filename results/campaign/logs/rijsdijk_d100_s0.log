@@ -1,0 +1,111 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789045389.424972   30124 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789045392.536532   30124 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+[cfg] rijsdijk_d100_s0 epochs=50 batch=50 n_train=45000
+[data] rijsdijk_d100_s0 len=700 train=45000 attack=10000 key=0xe0
+I0000 00:00:1789045400.157273   30124 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+[model] rijsdijk_d100_s0 trainable params=79439
+Epoch 1/50
+900/900 - 16s - 17ms/step - accuracy: 0.0038 - loss: 5.5743
+Epoch 2/50
+900/900 - 15s - 16ms/step - accuracy: 0.0040 - loss: 5.5512
+Epoch 3/50
+900/900 - 12s - 13ms/step - accuracy: 0.0045 - loss: 5.5468
+Epoch 4/50
+900/900 - 15s - 16ms/step - accuracy: 0.0048 - loss: 5.5443
+Epoch 5/50
+900/900 - 13s - 14ms/step - accuracy: 0.0051 - loss: 5.5420
+Epoch 6/50
+900/900 - 18s - 20ms/step - accuracy: 0.0054 - loss: 5.5397
+Epoch 7/50
+900/900 - 14s - 16ms/step - accuracy: 0.0057 - loss: 5.5380
+Epoch 8/50
+900/900 - 14s - 15ms/step - accuracy: 0.0058 - loss: 5.5366
+Epoch 9/50
+900/900 - 14s - 15ms/step - accuracy: 0.0059 - loss: 5.5372
+Epoch 10/50
+900/900 - 12s - 13ms/step - accuracy: 0.0060 - loss: 5.5376
+Epoch 11/50
+900/900 - 21s - 23ms/step - accuracy: 0.0056 - loss: 5.5379
+Epoch 12/50
+900/900 - 15s - 17ms/step - accuracy: 0.0055 - loss: 5.5386
+Epoch 13/50
+900/900 - 12s - 14ms/step - accuracy: 0.0057 - loss: 5.5394
+Epoch 14/50
+900/900 - 12s - 13ms/step - accuracy: 0.0057 - loss: 5.5408
+Epoch 15/50
+900/900 - 14s - 15ms/step - accuracy: 0.0058 - loss: 5.5419
+Epoch 16/50
+900/900 - 17s - 19ms/step - accuracy: 0.0050 - loss: 5.5432
+Epoch 17/50
+900/900 - 17s - 18ms/step - accuracy: 0.0049 - loss: 5.5445
+Epoch 18/50
+900/900 - 14s - 16ms/step - accuracy: 0.0050 - loss: 5.5465
+Epoch 19/50
+900/900 - 13s - 14ms/step - accuracy: 0.0053 - loss: 5.5479
+Epoch 20/50
+900/900 - 19s - 21ms/step - accuracy: 0.0047 - loss: 5.5489
+Epoch 21/50
+900/900 - 13s - 14ms/step - accuracy: 0.0053 - loss: 5.5496
+Epoch 22/50
+900/900 - 21s - 23ms/step - accuracy: 0.0051 - loss: 5.5504
+Epoch 23/50
+900/900 - 16s - 18ms/step - accuracy: 0.0048 - loss: 5.5493
+Epoch 24/50
+900/900 - 15s - 17ms/step - accuracy: 0.0056 - loss: 5.5488
+Epoch 25/50
+900/900 - 17s - 19ms/step - accuracy: 0.0046 - loss: 5.5485
+Epoch 26/50
+900/900 - 15s - 17ms/step - accuracy: 0.0053 - loss: 5.5466
+Epoch 27/50
+900/900 - 15s - 17ms/step - accuracy: 0.0049 - loss: 5.5441
+Epoch 28/50
+900/900 - 12s - 13ms/step - accuracy: 0.0054 - loss: 5.5425
+Epoch 29/50
+900/900 - 11s - 13ms/step - accuracy: 0.0055 - loss: 5.5400
+Epoch 30/50
+900/900 - 11s - 13ms/step - accuracy: 0.0053 - loss: 5.5389
+Epoch 31/50
+900/900 - 11s - 13ms/step - accuracy: 0.0057 - loss: 5.5386
+Epoch 32/50
+900/900 - 11s - 13ms/step - accuracy: 0.0061 - loss: 5.5375
+Epoch 33/50
+900/900 - 11s - 13ms/step - accuracy: 0.0055 - loss: 5.5361
+Epoch 34/50
+900/900 - 11s - 13ms/step - accuracy: 0.0058 - loss: 5.5350
+Epoch 35/50
+900/900 - 11s - 13ms/step - accuracy: 0.0057 - loss: 5.5344
+Epoch 36/50
+900/900 - 12s - 13ms/step - accuracy: 0.0058 - loss: 5.5338
+Epoch 37/50
+900/900 - 11s - 13ms/step - accuracy: 0.0055 - loss: 5.5338
+Epoch 38/50
+900/900 - 11s - 13ms/step - accuracy: 0.0053 - loss: 5.5341
+Epoch 39/50
+900/900 - 11s - 13ms/step - accuracy: 0.0057 - loss: 5.5345
+Epoch 40/50
+900/900 - 11s - 13ms/step - accuracy: 0.0056 - loss: 5.5356
+Epoch 41/50
+900/900 - 11s - 13ms/step - accuracy: 0.0053 - loss: 5.5365
+Epoch 42/50
+900/900 - 11s - 13ms/step - accuracy: 0.0058 - loss: 5.5368
+Epoch 43/50
+900/900 - 11s - 13ms/step - accuracy: 0.0056 - loss: 5.5371
+Epoch 44/50
+900/900 - 12s - 13ms/step - accuracy: 0.0055 - loss: 5.5375
+Epoch 45/50
+900/900 - 16s - 18ms/step - accuracy: 0.0052 - loss: 5.5381
+Epoch 46/50
+900/900 - 12s - 13ms/step - accuracy: 0.0050 - loss: 5.5388
+Epoch 47/50
+900/900 - 12s - 13ms/step - accuracy: 0.0048 - loss: 5.5397
+Epoch 48/50
+900/900 - 11s - 13ms/step - accuracy: 0.0045 - loss: 5.5408
+Epoch 49/50
+900/900 - 12s - 13ms/step - accuracy: 0.0045 - loss: 5.5420
+Epoch 50/50
+900/900 - 12s - 14ms/step - accuracy: 0.0048 - loss: 5.5429
+[GE] rijsdijk_d100_s0 min=120.020@2 final=196.190 recov[GE<0.5]=None (GE<1=None) time=11.5min

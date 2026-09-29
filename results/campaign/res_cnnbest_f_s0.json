@@ -1,0 +1,14 @@
+{
+ "tag": "cnnbest_f_s0",
+ "model": "CNN_best",
+ "dataset": "fixed",
+ "seed": 0,
+ "epochs": 75,
+ "params": 66652544,
+ "ge_min": 0.02,
+ "ge_argmin": 2939,
+ "ge_final": 0.05,
+ "recov_05": 2039,
+ "recov_1": 1591,
+ "wallclock_s": 2985.8
+}

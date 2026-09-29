@@ -1,0 +1,50 @@
+[data] s3_d50_clswide_qcnn_s2 len=700 train=45000 val=5000 attack=10000 key=0xe0 early_stop=True
+[model] s3_d50_clswide_qcnn_s2 params=42872 (mid-block=144)
+[ep 1/250] loss=5.5539 acc=0.0037
+[ep 2/250] loss=5.5451 acc=0.0044
+[ep 3/250] loss=5.5437 acc=0.0047
+[ep 4/250] loss=5.5428 acc=0.0041
+[ep 5/250] loss=5.5421 acc=0.0053 val_ge_auc=112.77 *best*
+[ep 6/250] loss=5.5411 acc=0.0047
+[ep 7/250] loss=5.5401 acc=0.0048
+[ep 8/250] loss=5.5389 acc=0.0049
+[ep 9/250] loss=5.5379 acc=0.0045
+[ep 10/250] loss=5.5368 acc=0.0055 val_ge_auc=137.02 (stale 1/8)
+[ep 11/250] loss=5.5358 acc=0.0052
+[ep 12/250] loss=5.5345 acc=0.0055
+[ep 13/250] loss=5.5333 acc=0.0052
+[ep 14/250] loss=5.5319 acc=0.0056
+[ep 15/250] loss=5.5312 acc=0.0051 val_ge_auc=137.53 (stale 2/8)
+[ep 16/250] loss=5.5298 acc=0.0062
+[ep 17/250] loss=5.5280 acc=0.0061
+[ep 18/250] loss=5.5273 acc=0.0063
+[ep 19/250] loss=5.5259 acc=0.0062
+[ep 20/250] loss=5.5246 acc=0.0060 val_ge_auc=136.64 (stale 3/8)
+[ep 21/250] loss=5.5231 acc=0.0065
+[ep 22/250] loss=5.5217 acc=0.0067
+[ep 23/250] loss=5.5204 acc=0.0068
+[ep 24/250] loss=5.5189 acc=0.0065
+[ep 25/250] loss=5.5176 acc=0.0071 val_ge_auc=129.07 (stale 4/8)
+[ep 26/250] loss=5.5167 acc=0.0066
+[ep 27/250] loss=5.5149 acc=0.0068
+[ep 28/250] loss=5.5132 acc=0.0067
+[ep 29/250] loss=5.5120 acc=0.0069
+[ep 30/250] loss=5.5101 acc=0.0066 val_ge_auc=133.25 (stale 5/8)
+[ep 31/250] loss=5.5087 acc=0.0074
+[ep 32/250] loss=5.5067 acc=0.0069
+[ep 33/250] loss=5.5051 acc=0.0074
+[ep 34/250] loss=5.5036 acc=0.0071
+[ep 35/250] loss=5.5019 acc=0.0073 val_ge_auc=125.30 (stale 6/8)
+[ep 36/250] loss=5.5008 acc=0.0076
+[ep 37/250] loss=5.4994 acc=0.0071
+[ep 38/250] loss=5.4974 acc=0.0074
+[ep 39/250] loss=5.4949 acc=0.0076
+[ep 40/250] loss=5.4931 acc=0.0071 val_ge_auc=123.91 (stale 7/8)
+[ep 41/250] loss=5.4915 acc=0.0080
+[ep 42/250] loss=5.4900 acc=0.0078
+[ep 43/250] loss=5.4882 acc=0.0076
+[ep 44/250] loss=5.4874 acc=0.0079
+[ep 45/250] loss=5.4850 acc=0.0075 val_ge_auc=128.93 (stale 8/8)
+[patience] no improvement for 8 evals, stopping at ep 45
+[early-stop] best val_ge_auc=112.77 at epoch 5
+[GE] s3_d50_clswide_qcnn_s2 min=121.350@2 final=131.920 recov[GE<0.5]=None (GE<1=None) time=4.3min

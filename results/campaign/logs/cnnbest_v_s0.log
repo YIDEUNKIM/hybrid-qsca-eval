@@ -1,0 +1,20 @@
+[device] cuda (NVIDIA GeForce GTX 1060 3GB)
+[data] cnnbest_v_s0 len=1400 train=45000 attack=100000 key=0x22
+[model] cnnbest_v_s0 params=112,789,888 batch=200
+[ep 1/75] loss=5.5453 acc=0.0037 (2.1min elapsed)
+[ep 5/75] loss=5.5422 acc=0.0052 (9.9min elapsed)
+[ep 10/75] loss=5.5179 acc=0.0069 (20.0min elapsed)
+[ep 15/75] loss=5.3201 acc=0.0213 (31.5min elapsed)
+[ep 20/75] loss=4.4789 acc=0.0967 (42.5min elapsed)
+[ep 25/75] loss=2.8192 acc=0.3555 (51.5min elapsed)
+[ep 30/75] loss=1.0519 acc=0.7322 (67.2min elapsed)
+[ep 35/75] loss=0.3827 acc=0.8920 (77.3min elapsed)
+[ep 40/75] loss=0.2323 acc=0.9324 (86.5min elapsed)
+[ep 45/75] loss=0.1778 acc=0.9476 (95.3min elapsed)
+[ep 50/75] loss=0.1541 acc=0.9549 (104.1min elapsed)
+[ep 55/75] loss=0.1277 acc=0.9639 (112.9min elapsed)
+[ep 60/75] loss=0.1043 acc=0.9703 (121.7min elapsed)
+[ep 65/75] loss=0.0881 acc=0.9747 (130.4min elapsed)
+[ep 70/75] loss=0.0829 acc=0.9766 (139.2min elapsed)
+[ep 75/75] loss=0.0730 acc=0.9792 (148.0min elapsed)
+[GE] cnnbest_v_s0 min=2.740@2986 final=2.850 recov[GE<0.5]=None (GE<1=None) time=149.9min

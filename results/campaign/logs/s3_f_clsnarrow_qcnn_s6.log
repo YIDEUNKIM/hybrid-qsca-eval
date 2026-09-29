@@ -1,0 +1,75 @@
+[data] s3_f_clsnarrow_qcnn_s6 len=700 train=45000 val=5000 attack=10000 key=0xe0 early_stop=True
+[model] s3_f_clsnarrow_qcnn_s6 params=42744 (mid-block=16)
+[ep 1/250] loss=5.5500 acc=0.0038
+[ep 2/250] loss=5.5452 acc=0.0044
+[ep 3/250] loss=5.5446 acc=0.0048
+[ep 4/250] loss=5.5441 acc=0.0047
+[ep 5/250] loss=5.5439 acc=0.0049 val_ge_auc=115.98 *best*
+[ep 6/250] loss=5.5436 acc=0.0049
+[ep 7/250] loss=5.5434 acc=0.0049
+[ep 8/250] loss=5.5433 acc=0.0049
+[ep 9/250] loss=5.5433 acc=0.0049
+[ep 10/250] loss=5.5433 acc=0.0049 val_ge_auc=114.59 *best*
+[ep 11/250] loss=5.5433 acc=0.0049
+[ep 12/250] loss=5.5433 acc=0.0049
+[ep 13/250] loss=5.5433 acc=0.0049
+[ep 14/250] loss=5.5433 acc=0.0046
+[ep 15/250] loss=5.5432 acc=0.0049 val_ge_auc=116.33 (stale 1/8)
+[ep 16/250] loss=5.5433 acc=0.0049
+[ep 17/250] loss=5.5433 acc=0.0049
+[ep 18/250] loss=5.5433 acc=0.0049
+[ep 19/250] loss=5.5433 acc=0.0046
+[ep 20/250] loss=5.5433 acc=0.0049 val_ge_auc=116.10 (stale 2/8)
+[ep 21/250] loss=5.5433 acc=0.0046
+[ep 22/250] loss=5.5433 acc=0.0049
+[ep 23/250] loss=5.5433 acc=0.0049
+[ep 24/250] loss=5.5433 acc=0.0047
+[ep 25/250] loss=5.5433 acc=0.0049 val_ge_auc=117.44 (stale 3/8)
+[ep 26/250] loss=5.5433 acc=0.0049
+[ep 27/250] loss=5.5433 acc=0.0047
+[ep 28/250] loss=5.5433 acc=0.0049
+[ep 29/250] loss=5.5433 acc=0.0049
+[ep 30/250] loss=5.5433 acc=0.0049 val_ge_auc=113.76 *best*
+[ep 31/250] loss=5.5433 acc=0.0049
+[ep 32/250] loss=5.5433 acc=0.0049
+[ep 33/250] loss=5.5433 acc=0.0049
+[ep 34/250] loss=5.5433 acc=0.0049
+[ep 35/250] loss=5.5433 acc=0.0049 val_ge_auc=116.03 (stale 1/8)
+[ep 36/250] loss=5.5432 acc=0.0049
+[ep 37/250] loss=5.5433 acc=0.0049
+[ep 38/250] loss=5.5433 acc=0.0049
+[ep 39/250] loss=5.5433 acc=0.0049
+[ep 40/250] loss=5.5433 acc=0.0049 val_ge_auc=118.01 (stale 2/8)
+[ep 41/250] loss=5.5433 acc=0.0048
+[ep 42/250] loss=5.5433 acc=0.0044
+[ep 43/250] loss=5.5433 acc=0.0049
+[ep 44/250] loss=5.5433 acc=0.0049
+[ep 45/250] loss=5.5433 acc=0.0049 val_ge_auc=116.89 (stale 3/8)
+[ep 46/250] loss=5.5433 acc=0.0049
+[ep 47/250] loss=5.5433 acc=0.0049
+[ep 48/250] loss=5.5433 acc=0.0045
+[ep 49/250] loss=5.5433 acc=0.0049
+[ep 50/250] loss=5.5433 acc=0.0048 val_ge_auc=115.03 (stale 4/8)
+[ep 51/250] loss=5.5433 acc=0.0049
+[ep 52/250] loss=5.5432 acc=0.0049
+[ep 53/250] loss=5.5433 acc=0.0049
+[ep 54/250] loss=5.5433 acc=0.0049
+[ep 55/250] loss=5.5433 acc=0.0049 val_ge_auc=115.88 (stale 5/8)
+[ep 56/250] loss=5.5433 acc=0.0049
+[ep 57/250] loss=5.5433 acc=0.0049
+[ep 58/250] loss=5.5433 acc=0.0049
+[ep 59/250] loss=5.5433 acc=0.0049
+[ep 60/250] loss=5.5433 acc=0.0049 val_ge_auc=114.24 (stale 6/8)
+[ep 61/250] loss=5.5433 acc=0.0049
+[ep 62/250] loss=5.5433 acc=0.0049
+[ep 63/250] loss=5.5433 acc=0.0049
+[ep 64/250] loss=5.5433 acc=0.0049
+[ep 65/250] loss=5.5433 acc=0.0049 val_ge_auc=115.45 (stale 7/8)
+[ep 66/250] loss=5.5433 acc=0.0049
+[ep 67/250] loss=5.5433 acc=0.0049
+[ep 68/250] loss=5.5433 acc=0.0049
+[ep 69/250] loss=5.5433 acc=0.0047
+[ep 70/250] loss=5.5433 acc=0.0049 val_ge_auc=114.44 (stale 8/8)
+[patience] no improvement for 8 evals, stopping at ep 70
+[early-stop] best val_ge_auc=113.76 at epoch 30
+[GE] s3_f_clsnarrow_qcnn_s6 min=125.210@2 final=201.160 recov[GE<0.5]=None (GE<1=None) time=6.4min

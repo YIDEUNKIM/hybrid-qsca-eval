@@ -1,0 +1,60 @@
+[data] s1_v_pure_s1 mode=pure pca=256 var_kept=0.832 train=45000 val=5000 attack=100000 key=0x22
+[model] stage=1pure qubits=8 params=144
+[ep 1/200] loss=6.1058 acc=0.0036
+[ep 2/200] loss=6.0839 acc=0.0037
+[ep 3/200] loss=6.0687 acc=0.0038
+[ep 4/200] loss=6.0587 acc=0.0040
+[ep 5/200] loss=6.0541 acc=0.0040 val_ge_auc=129.66 *best*
+[ep 6/200] loss=6.0457 acc=0.0038
+[ep 7/200] loss=6.0407 acc=0.0038
+[ep 8/200] loss=6.0387 acc=0.0036
+[ep 9/200] loss=6.0370 acc=0.0036
+[ep 10/200] loss=6.0324 acc=0.0037 val_ge_auc=128.80 *best*
+[ep 11/200] loss=6.0328 acc=0.0040
+[ep 12/200] loss=6.0276 acc=0.0039
+[ep 13/200] loss=6.0262 acc=0.0037
+[ep 14/200] loss=6.0253 acc=0.0036
+[ep 15/200] loss=6.0230 acc=0.0040 val_ge_auc=128.78 *best*
+[ep 16/200] loss=6.0225 acc=0.0039
+[ep 17/200] loss=6.0205 acc=0.0039
+[ep 18/200] loss=6.0212 acc=0.0038
+[ep 19/200] loss=6.0187 acc=0.0036
+[ep 20/200] loss=6.0173 acc=0.0038 val_ge_auc=129.85 (stale 1/8)
+[ep 21/200] loss=6.0195 acc=0.0038
+[ep 22/200] loss=6.0239 acc=0.0036
+[ep 23/200] loss=6.0257 acc=0.0039
+[ep 24/200] loss=6.0200 acc=0.0038
+[ep 25/200] loss=6.0158 acc=0.0037 val_ge_auc=130.30 (stale 2/8)
+[ep 26/200] loss=6.0138 acc=0.0037
+[ep 27/200] loss=6.0126 acc=0.0038
+[ep 28/200] loss=6.0113 acc=0.0036
+[ep 29/200] loss=6.0097 acc=0.0036
+[ep 30/200] loss=6.0092 acc=0.0037 val_ge_auc=131.19 (stale 3/8)
+[ep 31/200] loss=6.0102 acc=0.0038
+[ep 32/200] loss=6.0088 acc=0.0038
+[ep 33/200] loss=6.0079 acc=0.0037
+[ep 34/200] loss=6.0075 acc=0.0038
+[ep 35/200] loss=6.0107 acc=0.0036 val_ge_auc=130.63 (stale 4/8)
+[ep 36/200] loss=6.0086 acc=0.0036
+[ep 37/200] loss=6.0040 acc=0.0038
+[ep 38/200] loss=6.0034 acc=0.0036
+[ep 39/200] loss=6.0023 acc=0.0038
+[ep 40/200] loss=6.0027 acc=0.0038 val_ge_auc=130.29 (stale 5/8)
+[ep 41/200] loss=5.9992 acc=0.0040
+[ep 42/200] loss=5.9980 acc=0.0037
+[ep 43/200] loss=5.9980 acc=0.0039
+[ep 44/200] loss=5.9977 acc=0.0040
+[ep 45/200] loss=5.9989 acc=0.0036 val_ge_auc=130.78 (stale 6/8)
+[ep 46/200] loss=5.9975 acc=0.0038
+[ep 47/200] loss=5.9973 acc=0.0042
+[ep 48/200] loss=5.9956 acc=0.0039
+[ep 49/200] loss=5.9949 acc=0.0038
+[ep 50/200] loss=5.9972 acc=0.0039 val_ge_auc=130.36 (stale 7/8)
+[ep 51/200] loss=5.9969 acc=0.0038
+[ep 52/200] loss=5.9980 acc=0.0042
+[ep 53/200] loss=5.9947 acc=0.0040
+[ep 54/200] loss=5.9952 acc=0.0040
+[ep 55/200] loss=5.9936 acc=0.0039 val_ge_auc=129.93 (stale 8/8)
+[patience] no improvement for 8 evals, stopping at ep 55
+[early-stop] best val_ge_auc=128.78 at epoch 15
+[GE] s1_v_pure_s1 min=102.740@1098 final=105.920 recov[GE<0.5]=None (GE<1=None) time=49.3min

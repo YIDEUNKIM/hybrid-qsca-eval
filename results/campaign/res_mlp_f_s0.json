@@ -1,0 +1,17 @@
+{
+ "tag": "mlp_f_s0",
+ "model": "mlp",
+ "dataset": "fixed",
+ "seed": 0,
+ "epochs": 100,
+ "batch": 100,
+ "params": 392656,
+ "final_loss": 5.380746364593506,
+ "final_acc": 0.01864444464445114,
+ "ge_min": 0.0,
+ "ge_argmin": 2541,
+ "ge_final": 0.0,
+ "recov_05": 1360,
+ "recov_1": 1082,
+ "wallclock_s": 163.7
+}

@@ -1,0 +1,19 @@
+{
+ "tag": "s2_f_hybrid_s0",
+ "stage": "2hybrid",
+ "dataset": "fixed",
+ "mode": "hybrid",
+ "seed": 0,
+ "epochs": 200,
+ "epochs_run": 65,
+ "params": 34214,
+ "var_kept": 0.9834620642040379,
+ "best_epoch": 25,
+ "val_ge_auc": 140.98136718749998,
+ "ge_min": 82.44,
+ "ge_argmin": 2717,
+ "ge_final": 84.46,
+ "recov_05": null,
+ "recov_1": null,
+ "wallclock_s": 1318.5
+}

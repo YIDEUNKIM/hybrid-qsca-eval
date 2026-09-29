@@ -1,0 +1,17 @@
+{
+ "tag": "mlp_v_s0",
+ "model": "mlp",
+ "dataset": "variable",
+ "seed": 0,
+ "epochs": 100,
+ "batch": 100,
+ "params": 532656,
+ "final_loss": 5.155736923217773,
+ "final_acc": 0.04057777673006058,
+ "ge_min": 83.54,
+ "ge_argmin": 2886,
+ "ge_final": 85.55,
+ "recov_05": null,
+ "recov_1": null,
+ "wallclock_s": 327.3
+}
