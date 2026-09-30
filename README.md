@@ -15,7 +15,7 @@ studies, and the scripts and result files behind the finite-shot, device-noise a
 |---|---|
 | `code/qcnn/sca_common.py` | Protocol shared by every model: mask-free labels and data split (R1, R2), GE/SR estimator (R3), first-stays-below recovery rule (R4), validation GE proxy (R5) |
 | `code/qcnn/qcnn_stages12.py` | Stage-1/2 models on PCA/amplitude inputs: a SEL circuit whose 256-outcome measurement is the posterior (S1), or the QCNN with a classical head (S2); R5 checkpoint selection |
-| `code/qcnn/qcnn_stage3.py` | Stage-3 models (conv encoder, conv/pool or SEL circuit, classical head), wide and rank-1 controls, training with R5 checkpoint selection |
+| `code/qcnn/qcnn_stage3.py` | Stage-3 models (conv encoder, conv/pool or SEL circuit, classical head), dense and rank-1 controls, training with R5 checkpoint selection |
 | `code/baselines/train_tf_baselines.py` | MLP_best and RL-CNN in TensorFlow |
 | `code/baselines/train_cnnbest.py` | CNN_best in PyTorch |
 | `code/baselines/metaqnn/` | Unmodified `one_cycle_lr.py` and MIT licence from [Rijsdijk et al.](https://github.com/AISyLab/Reinforcement-Learning-for-SCA), loaded by `train_tf_baselines.py` for the RL-CNN schedule |
@@ -30,6 +30,7 @@ studies, and the scripts and result files behind the finite-shot, device-noise a
 | `sr/results/` | JSON summaries behind Tables 7–9; `curves_hw_fez_*.npz` hold the measured device expectation values |
 | `hardware/exports/` | IBM Quantum job exports of the three `ibm_fez` jobs (account id removed) |
 | `analysis/` | R5 validation-group sizes, and checks that recompute Tables 1–6 and Tables 7–9 |
+| `figures/make_fig_recovery_budget.py` | Figure 2 from the ten-seed runs of Table 3, and the counts and McNemar test quoted with it |
 
 ## Setup
 
@@ -64,7 +65,7 @@ Stage 3 (`qcnn_stage3.py`):
 ```bash
 C="python code/qcnn/qcnn_stage3.py --data-dir data --out-dir out"
 $C --dataset fixed --head quantum --seed 0                      # conv/pool hybrid
-$C --dataset fixed --head classical --control wide --seed 0     # wide control, 144 params
+$C --dataset fixed --head classical --control wide --seed 0     # dense control, 144 params
 $C --dataset fixed --head classical --control narrow --seed 0   # rank-1 control, 16 params
 $C --dataset fixed --head quantum --ansatz sel --seed 0         # SEL circuit
 $C --dataset variable --head quantum --seed 0                   # variable key
@@ -114,18 +115,28 @@ is the Table 2 output. Attack-set probabilities (5.2 GB) and the weights of the
 campaign runs (0.7 GB) are not included because of their size.
 
 ```bash
-python analysis/check_campaign_tables.py   # prints Tables 1-6 and the Sec. 3 numbers
+python analysis/check_campaign_tables.py      # prints Tables 1-6 and the Sec. 3 numbers
+python figures/make_fig_recovery_budget.py    # Figure 2, written to out/fig_recovery_budget.pdf
 ```
+
+Figure 2 counts, for each attack-trace budget B, the ten-seed runs of Table 3 whose
+T<sub>GE<0.5</sub> is at most B. The script also prints the counts at B = 250, 1000 and
+3000, the paired outcomes of S3-QCNN and the dense control, and the two-sided exact
+McNemar p-value quoted in Sec. 3.
 
 Tags read as `s3_f_quantum_qcnn_s7`: Stage 3, fixed key, quantum middle block, QCNN
 circuit, seed 7.
 
 - Database: `f` fixed key, `v` variable key, `d50`/`d100` desynchronized.
-- Middle block: `quantum`, `clswide` (wide control), `clsnarrow` (rank-1 control; with
-  `sel`, a 144-parameter rank-6 block).
+- Middle block: `quantum`, `clswide` (dense control, `--control wide`), `clsnarrow`
+  (rank-1 control; with `sel`, a 144-parameter rank-6 block).
 - `q8c3`, `q10c3`: 8 or 10 qubits with three encoder blocks.
 - `s1_*_pure` is Stage 1 and `s2_*_hybrid` is Stage 2. `rijsdijk` is RL-CNN, `mlp` is
   MLP_best and `cnnbest` is CNN_best.
+
+The manifest below lists the runs behind each table. `check_campaign_tables.py` and
+the Figure 2 script read exactly these tags, so the weight-saving rerun
+`s3_f_quantum_qcnn_s0_w` enters none of them.
 
 | Table | Rows | Runs |
 |---|---|---|
@@ -133,12 +144,12 @@ circuit, seed 7.
 | | S3-QCNN | `s3_f_quantum_qcnn_s0`–`s9`, `s3_v_quantum_qcnn_s0`–`s2` |
 | | S3-SEL | `s3_{f,v}_quantum_sel_s0`–`s2` |
 | 2 | QCNN, SEL | `grad_variance.json` |
-| 3 | QCNN, wide, rank-1 | `s3_f_{quantum,clswide,clsnarrow}_qcnn_s0`–`s9` |
+| 3, Fig. 2 | QCNN, dense, rank-1 | `s3_f_{quantum,clswide,clsnarrow}_qcnn_s0`–`s9` |
 | 4 | MLP_best, CNN_best, RL-CNN | `{mlp,cnnbest,rijsdijk}_{f,v}_s0` |
 | 5 | n = 8, ℓ = 2 | the S3-QCNN runs of Table 1 |
 | | n = 8, ℓ = 3 | `s3_f_quantum_qcnn_q8c3_s0`, `s3_v_quantum_qcnn_q8c3_s0`–`s2` |
 | | n = 10, ℓ = 3 | `s3_{f,v}_quantum_qcnn_q10c3_s0` |
-| 6 | S3-QCNN, wide control | `s3_{d50,d100}_{quantum,clswide}_qcnn_s0`–`s2` |
+| 6 | S3-QCNN, dense control | `s3_{d50,d100}_{quantum,clswide}_qcnn_s0`–`s2` |
 | | S2, RL-CNN | `s2_{d50,d100}_hybrid_s0`, `rijsdijk_{d50,d100}_s0` |
 
 Runs that no table uses:
@@ -172,7 +183,6 @@ Runs that no table uses:
   100-epoch budgets, whereas the scripts stop on the R5 proxy with caps of 250 epochs
   (Stage 3) and 200 epochs (Stages 1/2). `train_tf_baselines.py` mentions retraining
   at 50k, whereas the runs use 45k training traces, as their `[cfg]` log lines show.
-- Figure 2 plots the seed-0 curves in `results/campaign/ge_curves/`.
 
 ## Execution studies (Sec. 4)
 

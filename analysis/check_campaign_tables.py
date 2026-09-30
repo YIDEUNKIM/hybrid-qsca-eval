@@ -84,7 +84,7 @@ def table2(_runs):
 
 def table3(runs):
     print("Table 3 (tab:variance): ASCAD fixed, ten paired seeds")
-    for label, p in [("QCNN", "quantum"), ("Wide control", "clswide"),
+    for label, p in [("QCNN", "quantum"), ("Dense control", "clswide"),
                      ("Rank-1 control", "clsnarrow")]:
         rs = arm(runs, f"s3_f_{p}_qcnn", range(10))
         ok = recovered(rs)
@@ -119,7 +119,7 @@ def table5(runs):
 def table6(runs):
     print("Table 6 (tab:desync): minimum GE, median [min-max] over the listed runs")
     for label, p, seeds in [("S3-QCNN", "s3_{d}_quantum_qcnn", range(3)),
-                            ("Wide control", "s3_{d}_clswide_qcnn", range(3)),
+                            ("Dense control", "s3_{d}_clswide_qcnn", range(3)),
                             ("S2", "s2_{d}_hybrid", range(1)),
                             ("RL-CNN", "rijsdijk_{d}", range(1))]:
         cols = []
